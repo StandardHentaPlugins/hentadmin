@@ -1,10 +1,10 @@
 {
 	"main": "lib/index.js",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"scripts": {
-    "build": "tsc --project tsconfig.json",
-    "release-it": "yarn version --patch && git push --follow-tags"
-  },
+		"build": "tsc --project tsconfig.json",
+		"release-it": "yarn version --patch && git push --follow-tags"
+	},
 	"dependencies": {
 		"henta": "^3.0.0"
 	},
