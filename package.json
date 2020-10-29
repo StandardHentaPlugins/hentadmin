@@ -1,0 +1,14 @@
+{
+	"main": "lib/index.js",
+	"version": "0.1.0",
+	"scripts": {
+    "build": "tsc --project tsconfig.json",
+    "release-it": "yarn version --patch && git push --follow-tags"
+  },
+	"dependencies": {
+		"henta": "^3.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^14.6.0"
+	}
+}
